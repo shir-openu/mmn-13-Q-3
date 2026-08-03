@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<!--
+  Corrected 3 August 2026 from Dafi's notes in "Presentation1 עם הערות דפי.pdf".
+  Previous version preserved as: index_OLD.html
+  Full path: D:\Dropbox\ODE\אתר_הקורס_שידרוג\כרך ג\GITHUB_PROJECTS\mmn-13-Q-3\index_OLD.html
+  Changes: single-vav vector noun -> double-vav x12; digit "3" spelled out as a Hebrew word x1; geresh removed after a single letter in step headings x5
+-->
+
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -717,7 +724,7 @@
     <div class="method-box">
         <h3>שיטת הפתרון</h3>
         <p>
-            מערכת אי-הומוגנית x' = Ax + b. נמצא את הפתרון ההומוגני (3 פתרונות בלתי תלויים)
+            מערכת אי-הומוגנית x' = Ax + b. נמצא את הפתרון ההומוגני (שלושה פתרונות בלתי תלויים)
             ואת הפתרון הפרטי. λ=4 הוא ערך עצמי כפול ודורש וקטור מוכלל.
         </p>
     </div>
@@ -826,7 +833,7 @@
             </div>
 
             <div class="input-section">
-                <label>מהו הוקטור העצמי v₁ עבור λ = 6?</label>
+                <label>מהו הווקטור העצמי v₁ עבור λ = 6?</label>
                 <div class="input-row">
                     <span>v₁ = [</span>
                     <input type="text" id="v1-1" placeholder="?">
@@ -873,7 +880,7 @@
                     <div class="math">v₁ = [−1, 1, 1]<sup>T</sup></div>
                 </div>
                 <div class="result-highlight">
-                    <h4>הוקטור העצמי</h4>
+                    <h4>הווקטור העצמי</h4>
                     <div class="math">
                         <span class="hl-orange">v₁ = [−1, 1, 1]<sup>T</sup></span>
                     </div>
@@ -905,7 +912,7 @@
             </div>
 
             <div class="input-section">
-                <label>מהו הוקטור העצמי v₂ עבור λ = 4?</label>
+                <label>מהו הווקטור העצמי v₂ עבור λ = 4?</label>
                 <div class="input-row">
                     <span>v₂ = [</span>
                     <input type="text" id="v2-1" placeholder="?">
@@ -952,7 +959,7 @@
                     <div class="math">v₂ = [1, 1, −1]<sup>T</sup></div>
                 </div>
                 <div class="result-highlight">
-                    <h4>הוקטור העצמי</h4>
+                    <h4>הווקטור העצמי</h4>
                     <div class="math">
                         <span class="hl-green">v₂ = [1, 1, −1]<sup>T</sup></span>
                     </div>
@@ -985,7 +992,7 @@
             </div>
 
             <div class="input-section">
-                <label>מהם רכיבי הוקטור המוכלל w? (עם בחירת w₁ = 0)</label>
+                <label>מהם רכיבי הווקטור המוכלל w? (עם בחירת w₁ = 0)</label>
                 <div class="input-row">
                     <span>w₂ =</span>
                     <input type="text" id="w2-val" placeholder="?">
@@ -1032,7 +1039,7 @@
                     <div class="math">x₃(t) = te<sup>4t</sup>[1,1,−1]<sup>T</sup> + e<sup>4t</sup>[0,−3,2]<sup>T</sup> = e<sup>4t</sup>[t, t−3, 2−t]<sup>T</sup></div>
                 </div>
                 <div class="result-highlight">
-                    <h4>הוקטור המוכלל והפתרון השלישי</h4>
+                    <h4>הווקטור המוכלל והפתרון השלישי</h4>
                     <div class="math">
                         <span class="hl-blue">w = [0, −3, 2]<sup>T</sup></span><br>
                         <span class="hl-blue">x₃(t) = e<sup>4t</sup>[t, t−3, 2−t]<sup>T</sup></span>
@@ -1204,7 +1211,7 @@
             </div>
 
             <div class="result-highlight">
-                <h4>הוקטור העצמי</h4>
+                <h4>הווקטור העצמי</h4>
                 <div class="math" style="direction: ltr; font-family: 'Times New Roman', serif; font-size: 1.15rem;">
                     <span class="hl-orange">v₁ = [−1, 1, 1]<sup>T</sup></span>
                 </div>
@@ -1250,7 +1257,7 @@
             </div>
 
             <div class="result-highlight">
-                <h4>הוקטור העצמי</h4>
+                <h4>הווקטור העצמי</h4>
                 <div class="math" style="direction: ltr; font-family: 'Times New Roman', serif; font-size: 1.15rem;">
                     <span class="hl-green">v₂ = [1, 1, −1]<sup>T</sup></span>
                 </div>
@@ -1265,7 +1272,7 @@
             <h2 style="color: var(--blue);">פתרון שלב 4 - וקטור מוכלל ופתרון שלישי (פירוט מלא)</h2>
 
             <div class="solution-step">
-                <div class="label">שלב א': למה צריך וקטור מוכלל?</div>
+                <div class="label">שלב א: למה צריך וקטור מוכלל?</div>
                 <div class="math" style="direction: rtl; text-align: center; font-size: 1rem; line-height: 1.8;">
                     λ=4 הוא ערך עצמי כפול (ריבוי אלגברי 2) אבל יש לו רק וקטור עצמי אחד (ריבוי גאומטרי 1).<br>
                     לכן הפתרון השלישי אינו מהצורה הרגילה e<sup>λt</sup>v, אלא דורש וקטור מוכלל.
@@ -1273,21 +1280,21 @@
             </div>
 
             <div class="solution-step">
-                <div class="label">שלב ב': צורת הפתרון השלישי</div>
+                <div class="label">שלב ב: צורת הפתרון השלישי</div>
                 <div class="math" style="direction: ltr; text-align: center; font-family: 'Times New Roman', serif; font-size: 1.05rem;">
                     x₃(t) = te<sup>4t</sup>v₂ + e<sup>4t</sup>w
                 </div>
             </div>
 
             <div class="solution-step">
-                <div class="label">שלב ג': מציאת w - פתרון (A − 4I)w = v₂</div>
+                <div class="label">שלב ג: מציאת w - פתרון (A − 4I)w = v₂</div>
                 <div class="math" style="direction: ltr; text-align: center; font-family: 'Times New Roman', serif; font-size: 1rem; line-height: 1.8;">
                     [0, −1, −1; 1, 1, 2; 0, 1, 1] · [w₁; w₂; w₃] = [1; 1; −1]
                 </div>
             </div>
 
             <div class="solution-step">
-                <div class="label">שלב ד': פתרון המערכת</div>
+                <div class="label">שלב ד: פתרון המערכת</div>
                 <div class="math" style="direction: ltr; text-align: center; font-family: 'Times New Roman', serif; font-size: 1rem; line-height: 1.8;">
                     משוואה 1: −w₂ − w₃ = 1<br>
                     משוואה 3: w₂ + w₃ = −1 (זהה למשוואה 1)<br>
@@ -1301,7 +1308,7 @@
             </div>
 
             <div class="solution-step">
-                <div class="label">שלב ה': הפתרון השלישי</div>
+                <div class="label">שלב ה: הפתרון השלישי</div>
                 <div class="math" style="direction: ltr; text-align: center; font-family: 'Times New Roman', serif; font-size: 1.05rem; line-height: 1.8;">
                     x₃(t) = te<sup>4t</sup>[1;1;−1] + e<sup>4t</sup>[0;−3;2]<br>
                     = e<sup>4t</sup>[t; t−3; −t+2]<br>
@@ -1310,7 +1317,7 @@
             </div>
 
             <div class="result-highlight">
-                <h4>הוקטור המוכלל והפתרון השלישי</h4>
+                <h4>הווקטור המוכלל והפתרון השלישי</h4>
                 <div class="math" style="direction: ltr; font-family: 'Times New Roman', serif; font-size: 1.1rem; line-height: 2;">
                     <span class="hl-blue">w = [0, −3, 2]<sup>T</sup></span><br>
                     <span class="hl-blue">x₃(t) = e<sup>4t</sup>[t, t−3, 2−t]<sup>T</sup></span>
@@ -1670,7 +1677,7 @@
             });
 
             if (correct) {
-                showFeedback(document.getElementById('feedback2'), '✓ מצוין! הוקטור העצמי נכון', true);
+                showFeedback(document.getElementById('feedback2'), '✓ מצוין! הווקטור העצמי נכון', true);
                 stepCompleted[1] = true;
                 updateUI();
             } else {
@@ -1711,7 +1718,7 @@
             });
 
             if (correct) {
-                showFeedback(document.getElementById('feedback3'), '✓ מצוין! הוקטור העצמי נכון', true);
+                showFeedback(document.getElementById('feedback3'), '✓ מצוין! הווקטור העצמי נכון', true);
                 stepCompleted[2] = true;
                 updateUI();
             } else {
@@ -1754,7 +1761,7 @@
             document.getElementById('w3-val').className = w3Correct ? 'correct' : 'incorrect';
 
             if (w2Correct && w3Correct) {
-                showFeedback(document.getElementById('feedback4'), '✓ מצוין! הוקטור המוכלל נכון', true);
+                showFeedback(document.getElementById('feedback4'), '✓ מצוין! הווקטור המוכלל נכון', true);
                 stepCompleted[3] = true;
                 updateUI();
             } else {
